@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    background:url(../images/back.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    animation: animateBg 5s linear infinite ;
+}
+@keyframes animateBg 
+{
+100%{
+    filter: hue-rotate(360deg);
+}    
+}
+
+.App{
+   
+    text-align: center;
+    animation: animateBg 5s linear infinite ;
+
+}
+
+
+
+h1{
+    padding-top: 80px;
+    font-style: poppines;
+    font-weight: bold;
+    color: rgb(220, 20, 20);
+    animation: animateBg 5s linear infinite ;
+
+    
+}
+@keyframes animateBg 
+{
+100%{
+    filter: hue-rotate(360deg);
+}    
+}
+input{
+    margin: 30px;
+    padding: 7px;
+    margin-left: 8px;
+    border: 1px solid black;
+    border-radius: 7px;
+    border: none;
+    height:40px;
+    width: 280px;
+    box-shadow: 0 0 25px;
+    
+}
+.add{
+    margin-left:-10px;
+    height: 40px;
+    width: 75px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 0 25px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(207, 66, 191);
+    grid-template-columns:1fr 1fr;
+}
+ul{
+   
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    
+
+}
+
+li{
+    margin: 12px 0;
+    animation: animateBg 5s linear infinite ;  
+}
+@keyframes animateBg 
+{
+100%{
+    filter: hue-rotate(360deg);
+}    
+}
+.delete-button{
+font-size: 10px;
+margin-left: 8px;
+border: none;
+color: white;
+border-radius: 4px;
+padding-top: 4px;
+padding-bottom: 4px;
+height: 25px;
+width: 25px;
+border: none;
+box-shadow: 0 0 015px;
+background-color: rgb(24, 206, 106);
+border-radius: 5px;
+}
